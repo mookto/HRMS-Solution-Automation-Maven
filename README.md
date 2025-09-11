@@ -50,11 +50,12 @@ Before running the project, ensure you have the following installed:
    ## Running Tests
 - Run all tests:
   ```sh
-  gradle clean test
+  mvn clean install
+  mvn test
   ```
 - Run a specific test class:
   ```sh
-  gradle test --tests org.gradle.SomeTest.someSpecificFeature
+ mvn test --tests org.gradle.SomeTest.someSpecificFeature
   ```
 
 ## Generating Allure Report
