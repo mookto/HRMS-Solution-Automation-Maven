@@ -58,11 +58,11 @@ Before running the project, ensure you have the following installed:
  mvn test --tests org.gradle.SomeTest.someSpecificFeature
   ```
 
-## Generating Allure Report
-- After running all tests, run the mentioned commands,
-  ```sh
-  allure serve allure-results
-  ```
+## Generating HTML Report
+- After running all tests, 
+- Check the target folder to see the HTML report
+- the path ** target/surefire-reports/index.html**
+
 
 
 ## Test Cases Overview
